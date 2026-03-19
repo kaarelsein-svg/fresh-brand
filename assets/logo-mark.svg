@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .letter { fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: square; stroke-linejoin: miter; }
+      .dot { fill: currentColor; }
+      .frame { fill: none; stroke: currentColor; stroke-width: 2; opacity: 0.15; }
+    </style>
+  </defs>
+  <!-- outer frame -->
+  <rect class="frame" x="4" y="4" width="92" height="92" rx="2"/>
+  <!-- F letterform -->
+  <g class="letter" transform="translate(24, 18)">
+    <line x1="0" y1="0" x2="0" y2="64"/>
+    <line x1="0" y1="0" x2="44" y2="0"/>
+    <line x1="0" y1="32" x2="34" y2="32"/>
+  </g>
+  <!-- dot -->
+  <rect class="dot" x="76" y="70" width="10" height="10" rx="1"/>
+</svg>
